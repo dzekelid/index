@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Kaltura
 x-complete: 1
@@ -103,4 +102,3 @@ paths:
       - Categoryuser
       - Action
       - Index
----

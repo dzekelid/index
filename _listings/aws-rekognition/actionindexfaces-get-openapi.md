@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: AWS Rekognition
-x-complete: 1
+x-complete: 0
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Index Faces
   version: 1.0.0
+  description: Detects faces in the input image and adds them to the specified collection.
 schemes:
 - http
 produces:
@@ -42,3 +44,17 @@ paths:
       tags:
       - Machine Learning
       - Faces
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
